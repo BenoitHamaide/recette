@@ -5,7 +5,7 @@ function Ingredients () {
   return (
     <ul className="Ingredients">
 {Ingredients.ingredients.map((ingredient) => (
-  <li>{ingredient.quantity} {ingredient.unit} {ingredient.name}</li>
+  <li><span className="orange">{ingredient.quantity}{ingredient.unit}</span>   {ingredient.name}</li>
 ))}
     </ul>
   );

@@ -4,50 +4,81 @@
   text-align: center;
 }
 
-.Title
-{
+.Title {
   padding: 10px;
   text-align: center;
   font-size: 28px;
   font-family: "Comic sans MS";
 }
-.Header{
+.Header {
   display: flex;
   flex-direction: column;
-    justify-content: flex-end;
+  justify-content: flex-end;
   margin: 20px;
   border: 1px solid transparent;
   border-radius: 15px;
   padding: 15px 0;
   height: 30rem;
   width: 100%;
-  background: url(https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) center/cover;
-h1, h3{
-color: whitesmoke;
-background: rgba(0, 0, 0, 0.178);
-width: 100%;
-  
-}
-h1{
-  font-size: 3rem;
-  font-style: italic;
-  font-weight: bold;
-  padding-top: 20px;
-}
-h3{
-padding-bottom: 20px;
-}
+  background: url(https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940)
+    center/cover;
+  h1,
+  h3 {
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.178);
+    width: 100%;
+  }
+  h1 {
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  h3 {
+    padding-bottom: 20px;
+  }
 }
 
-.Main{
+.Main {
   margin: 20px;
-  border: 1px solid black;
-  padding: 15px;
+  border: 1px solid transparent;
+
   width: 100%;
+  li{
+    border-bottom: 2px solid rgb(241, 240, 240) ;
+ margin: 15px 0;
+    text-align: left;
+    padding-bottom: 15px;
+    .orange{
+    background: orange;
+    padding: 8px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    }
+  }
+  
 }
-.MainEtape{
+.MainEtape {
   margin: 20px;
-  border: 1px solid black;
+  border: 1px solid transparent;
+  background: rgb(241, 240, 240);
   padding: 15px;
   width: 100%;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: left;
+  li {position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    .trait {
+      top: 7px;
+      left: -30px;
+      position: absolute;
+      background: orange;
+    width: 20px;
+    height: 2px;
+    
+        }
+  }
 }

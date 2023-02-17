@@ -5,7 +5,7 @@ function ListeEtape () {
   return (
     <ul className="ListeEtapes">
 {Instructions.instructions.map((instructions) => (
-  <li>{instructions}</li>
+  <li><div className="trait"> </div>{instructions}</li>
 ))}
     </ul>
   );
