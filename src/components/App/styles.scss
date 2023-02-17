@@ -1,11 +1,9 @@
 .app {
-  width: 500px;
+  width: 700px;
   margin: 1em auto;
   text-align: center;
 }
-.app img {
-  max-width: 150px;
-}
+
 .Title
 {
   padding: 10px;
@@ -14,18 +12,42 @@
   font-family: "Comic sans MS";
 }
 .Header{
+  display: flex;
+  flex-direction: column;
+    justify-content: flex-end;
   margin: 20px;
-  border: 1px solid black;
-  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  padding: 15px 0;
+  height: 30rem;
+  width: 100%;
   background: url(https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940) center/cover;
+h1, h3{
+color: whitesmoke;
+background: rgba(0, 0, 0, 0.178);
+width: 100%;
+  
 }
+h1{
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 20px;
+}
+h3{
+padding-bottom: 20px;
+}
+}
+
 .Main{
   margin: 20px;
   border: 1px solid black;
   padding: 15px;
+  width: 100%;
 }
 .MainEtape{
   margin: 20px;
   border: 1px solid black;
   padding: 15px;
+  width: 100%;
 }
