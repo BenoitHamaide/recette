@@ -1,7 +1,11 @@
+import Recipe from "../../data/Recipe";
 import "./Title.scss";
 
-function Title({ text }) {
-  return <h1 className="Title">{text}</h1>;
-}
 
+function Title () {
+  const Title = Recipe;
+  return (
+  <h1 className="Title">{Title.title}</h1>
+);
+}
 export default Title;

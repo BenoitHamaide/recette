@@ -1,14 +1,16 @@
 import "./Header.scss";
-
 import Title from "../Title/Title"
 import Subtitle from '../Subtitle/Subtitle';
+
 const Header = () => {
+
   return (
     <div className="Header">
-      <Title text="Crêpes raffinées"/>
-      <Subtitle text="John Deuf - Facile"/>
+      <Title />
+      <Subtitle />
     </div>
   );
 };
 
 export default Header;
+
