@@ -16,7 +16,7 @@ function App() {
     <Route path="/" element={<Home />}/>
     <Route path="/recette-crepes" element={<RecetteCrepe />}/>
     <Route path="/recette-pancakes" element={<RecettePancake />}/>
-    <Route path="*" element={<NotFount />}/>
+    <Route path="*" element={<NotFount />} />
   </Routes>
 </BrowserRouter>
        </div>
