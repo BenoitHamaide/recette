@@ -9,17 +9,23 @@ import NotFount from '../../Pages/NotFount';
 
 // == Composant
 function App() {
-  return ( <
-    div className = "app" >
+  return ( 
+    
+    <div className = "app" >
+     
 <BrowserRouter>
   <Routes>
+
     <Route path="/" element={<Home />}/>
     <Route path="/recette-crepes" element={<RecetteCrepe />}/>
     <Route path="/recette-pancakes" element={<RecettePancake />}/>
     <Route path="*" element={<NotFount />} />
+  
   </Routes>
 </BrowserRouter>
-       </div>
+   
+    </div>
+       
   );
 }
 

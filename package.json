@@ -49,6 +49,7 @@
     "webpack-merge": "*"
   },
   "dependencies": {
+    "framer-motion": "^9.0.4",
     "prop-types": "*",
     "react": "*",
     "react-dom": "*",
